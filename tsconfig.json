@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "rootDir": "src",
+    "outDir": "dist"  // This tells TypeScript to store compiled files in the dist folder
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
